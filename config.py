@@ -1,0 +1,7 @@
+BOT_TOKEN = "8513711350:AAG2KkEXY6p5egT0ixvHEZ6rjHctY6SywNY"
+
+CRYPTO_TOKEN = "547101:AAPyUipQgyQGg7vGImXhM6bE6nYQt6j4cC7"
+
+ADMIN_ID = 8318264587
+
+WEBHOOK_URL = "https://your-render-url.onrender.com/webhook"
