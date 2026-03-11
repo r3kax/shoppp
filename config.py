@@ -3,7 +3,7 @@ CRYPTO_TOKEN = "547101:AAPyUipQgyQGg7vGImXhM6bE6nYQt6j4cC7"
 
 ADMIN_IDS = [8318264587]
 
-WEBHOOK_HOST = "https://your-app.onrender.com"
+WEBHOOK_HOST = "https://shoppp-098n.onrender.com"
 WEBHOOK_PATH = "/crypto"
 
 WEBHOOK_URL = WEBHOOK_HOST + WEBHOOK_PATH
