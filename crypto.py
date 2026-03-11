@@ -1,7 +1,7 @@
 import aiohttp
 from config import CRYPTO_TOKEN
 
-async def create_invoice(amount):
+async def create_invoice(amount,payload):
 
     url = "https://pay.crypt.bot/api/createInvoice"
 
@@ -11,7 +11,8 @@ async def create_invoice(amount):
 
     data = {
         "asset":"USDT",
-        "amount":amount
+        "amount":amount,
+        "payload":payload
     }
 
     async with aiohttp.ClientSession() as session:
